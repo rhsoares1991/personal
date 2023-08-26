@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rogerio Henrique</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20,100,0,-25" />
+    <script src="./script.js" defer></script>
+
+</head>
+<body>
+    <aside class="sidebar">
+        <button class="mobile-btn" onclick="toggleMenu()" id="menu-mobile">
+            <i class="material-symbols-outlined" > menu </i>            
+        </button>    
+             <!-- mobile sidebar -->
+        <div class="mobile-sidebar" id="mobile">
+            <i class="material-symbols-outlined close" onclick="toggleMenu()"> close </i>
+            <header class="sidebarheader-mobile">             
+                
+                <h2>ROGERIO<span class="dot-app">.</span></h2>
+            </header>
+            <nav class="links-mobile mobile">
+                
+                <button class="btn-mobile" >
+                    <i class="material-symbols-outlined" > home </i>
+                    <span>HOME</span>
+                </button>
+
+                <button class="btn-mobile">
+                    <i class="material-symbols-outlined"> info </i>
+                    <span>ABOUT</span>
+                </button>
+
+                <button class="btn-mobile">
+                    <i class="material-symbols-outlined"> design_services </i>
+                    <span>SERVICES</span>
+                </button>
+
+                <button class="btn-mobile">
+                    <i class="material-symbols-outlined"> work </i>
+                    <span>WORKS</span>
+                </button>
+
+                <button class="btn-mobile">
+                    <i class="material-symbols-outlined"> phone </i>
+                    <span>CONTACT</span>
+                </button>
+            </nav>
+            <div class="app__icons">
+                <img class="icon" src="./assets/icons8-linkedin-144.svg"alt="Linkedin">
+                <img class="icon" src="./assets/icons8-github-144.svg" alt="GitHUB">
+                <img class="icon" src="./assets/icons8-call-96.png" alt="Call">
+            </div>
+            <p class="p__copy">2023 Rogerio Henrique</p> 
+        </div>
+
+        <!-- desktop sidebar -->
+        <header class="sidebarheader">   
+            
+
+            <h2>ROGERIO<span class="dot-app">.</span></h2>
+        </header>
+        <nav class="links mobile">
+            
+            <button>
+                <i class="material-symbols-outlined" > home </i>
+                <span>HOME</span>
+            </button>
+
+            <button>
+                <i class="material-symbols-outlined"> info </i>
+                <span>ABOUT</span>
+            </button>
+
+            <button>
+                <i class="material-symbols-outlined"> design_services </i>
+                <span>SERVICES</span>
+            </button>
+
+            <button>
+                <i class="material-symbols-outlined"> work </i>
+                <span>WORKS</span>
+            </button>
+
+            <button>
+                <i class="material-symbols-outlined"> phone </i>
+                <span>CONTACT</span>
+            </button>
+        </nav>
+        <div class="app__icons">
+            <img class="icon" src="./assets/icons8-linkedin-144.svg"alt="Linkedin">
+            <img class="icon" src="./assets/icons8-github-144.svg" alt="GitHUB">
+            <img class="icon" src="./assets/icons8-call-96.png" alt="Call">
+        </div>       
+    </aside>
+    
+    
+    
+
+    <main>
+        <div class="app__home">
+            <div class="app__home-text">
+                <div class="app__home-text_box">
+                <h2>My name is <span >ROGERIO HENRIQUE...</span></h2>
+                <div class="app_home-text_decoration1"></div>
+                <h3><span>Front-End Developer</span> based in Brazil</h3>
+                </div>
+                <button>
+                    
+                    <p>Talk With me</p>
+                    <span class="material-symbols-outlined"> north_east </span>
+                </button>
+                <div class="app__home-contact">
+                <span class="material-symbols-outlined"> call </span>
+                <h5>+44 77 4935-8248</h5>
+                <span class="material-symbols-outlined"> mail </span>
+                <h5>rogeriohenriquelemos@gmail.com</h5> 
+                </div>           
+            </div>
+            <div class="app__home_picture">                
+                <div class="absolute-image">
+                    <img src="./assets/Elements.png" class="app__home_picture-decoration" alt="">
+                    <div class="app_home-text_decoration2"></div>
+                    <div class="app_home-text_decoration3"></div>
+                    <img src="./assets/Layer 1.png" alt="Profile" class="app__home_picture-photo">
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
